@@ -1,0 +1,1 @@
+my_vec <- vector(mode = "numeric", length = 3)
