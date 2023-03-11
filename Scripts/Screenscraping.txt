@@ -1,0 +1,16 @@
+
+Browsing: Browser is the client on your device with which you access data from websites
+the response from the server on which the site is hosted is visualized in the client (html code displayed)
+client <-> server
+difference to scraping: we don't want to visualize, but store/save the data. Code should be scalable,
+systematic and reproducible. We want to be able to select certain parts of the website (selector).
+no browser is involved, no gui, we are interacting with the code directly. So in this case the client
+is the programming language (R, Rstudio, python, etc.).
+
+Screenscraping: Scraping data off visible sites (screen of a website), use it politely and only if you can't do it otherwise.
+
+tapping APIs: application programming interfaces, standard set of rules which makes the scraping process automated.Use it if there is one.
+
+Parsing: creating a structure of the page from the code. Understanding the hierarchy of a site, creating a DOM structure. DOM=Document Object Model=parse tree
+
+robots.txt is a file made by the server host to give rules which sites are allowed to be scraped. It tells you what you can and what cannot be scraped.
